@@ -2,7 +2,7 @@
 
 This is my home lab: a small set of repurposed PCs I'm using to build hands-on infrastructure skills in virtualization, networking, backups, and self-hosting.
 
-My background is on the support and applications side of IT: Mac repair, then help desk, and now an IT Business Analyst supporting business applications and working on projects. AI is changing IT quickly, and this lab is how I'm rounding out the infrastructure side so I understand the whole stack. These notes cover what I built, what went wrong, and what I learned from it.
+My background is on the support and applications side of IT: Mac repair, then help desk, and for the last 4+ years an IT Business Analyst supporting business applications and working on projects. AI is changing IT quickly, and this lab is how I'm rounding out the infrastructure side so I understand the whole stack. These notes cover what I built, what went wrong, and what I learned from it.
 
 ## Hardware
 
