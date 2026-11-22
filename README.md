@@ -33,13 +33,14 @@ Everything sits on my home LAN behind an AT&T fiber gateway.
 |---|---|---|
 | 01 | [Installing Proxmox VE](docs/01-proxmox-install.md) | Done |
 | 02 | [My first LXC container](docs/02-first-container.md) | Done |
-| 03 | Pi-hole and local DNS names | Next |
+| 03 | [Hardening Proxmox](docs/03-hardening-proxmox.md) | Done |
+| 04 | Pi-hole and local DNS names | Next |
 
 ## Roadmap
 
 0. Hardware check (done)
 1. Proxmox VE install (done)
-2. Security baseline and first VM / container (first container done)
+2. Security baseline and first VM / container (hardening and first container done)
 3. Pi-hole and local DNS names
 4. Jellyfin media server
 5. Tailscale remote access
