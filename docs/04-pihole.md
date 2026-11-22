@@ -138,8 +138,7 @@ The answer came back as `0.0.0.0` (IPv4) and `::` (IPv6), with `pihole` / `192.1
 - **Configure IP:** leave on **Automatic**. The phone still gets its address from DHCP; I'm only changing DNS.
 - **Configure DNS → Manual:** removed the gateway's entries and added Pi-hole's IPv4 and IPv6 addresses.
 - **Limit IP Address Tracking:** turned **off** for this network. When it's on, iCloud Private Relay can route some lookups around my DNS server.
-
-I also turned off the iOS setting that falls back to cellular when Wi-Fi seems to be failing (**Settings → Cellular → Wi-Fi Assist**). A blocked lookup can look like a failure, and the phone would then just do it over cellular, where Pi-hole can't see it.
+- **Use Connectivity Assist:** turned **off** for this network. It lets the phone use cellular when Wi-Fi seems unreliable, and iOS's own description mentions ad blockers. A blocked lookup can look like a failure, so the phone could just retry it over cellular, where Pi-hole can't see it.
 
 ## Verify from Pi-hole's side
 
