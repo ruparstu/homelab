@@ -23,19 +23,21 @@ Everything sits on my home LAN behind an AT&T fiber gateway.
 | Proxmox server (`pve.home.lan`) | 192.168.1.10 (static, outside the DHCP range) |
 | Pi-hole DNS (planned) | 192.168.1.11 |
 | Backup server (planned) | 192.168.1.12 |
+| Test container `test01` | 192.168.1.20 |
 
 ## Documentation
 
 | # | Topic | Status |
 |---|---|---|
 | 01 | [Installing Proxmox VE](docs/01-proxmox-install.md) | Done |
-| 02 | Security baseline and first VM / container | Next |
+| 02 | [My first LXC container](docs/02-first-container.md) | Done |
+| 03 | Pi-hole and local DNS names | Next |
 
 ## Roadmap
 
 0. Hardware check (done)
 1. Proxmox VE install (done)
-2. Security baseline and first VM / container
+2. Security baseline and first VM / container (first container done)
 3. Pi-hole and local DNS names
 4. Jellyfin media server
 5. Tailscale remote access
