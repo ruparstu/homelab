@@ -10,7 +10,7 @@ My background is on the support and applications side of IT: Mac repair, then he
 |---|---|
 | Dell OptiPlex 5050 Micro (i7-6700, 16 GB RAM, 512 GB SSD) | Main Proxmox VE server |
 | Lenovo ThinkCentre M625q Tiny | Future Proxmox Backup Server |
-| Seagate 5 TB USB HDD | Future media / file storage |
+| Seagate 5 TB USB HDD | Jellyfin media storage (on the Dell) |
 | Dell XPS 13 | Test client |
 | Gaming tower | Management workstation |
 
@@ -25,6 +25,7 @@ Everything sits on my home LAN behind an AT&T fiber gateway.
 | Proxmox server (`pve.home.lan`) | 192.168.1.10 (static, outside the DHCP range) |
 | Pi-hole DNS (`pihole.home.lan`) | 192.168.1.11 |
 | Backup server (planned) | 192.168.1.12 |
+| Jellyfin (`jellyfin.home.lan`) | 192.168.1.13 |
 | Test container (`test01.home.lan`) | 192.168.1.20 |
 
 ## Documentation
@@ -35,7 +36,8 @@ Everything sits on my home LAN behind an AT&T fiber gateway.
 | 02 | [My first LXC container](docs/02-first-container.md) | Done |
 | 03 | [Hardening Proxmox](docs/03-hardening-proxmox.md) | Done |
 | 04 | [Pi-hole and local DNS names](docs/04-pihole.md) | Done |
-| 05 | Jellyfin media server | Next |
+| 05 | [Jellyfin media server](docs/05-jellyfin.md) | Done |
+| 06 | Tailscale remote access | Next |
 
 ## Roadmap
 
@@ -43,7 +45,7 @@ Everything sits on my home LAN behind an AT&T fiber gateway.
 1. Proxmox VE install (done)
 2. Security baseline and first VM / container (hardening and first container done)
 3. Pi-hole and local DNS names (done; second Pi-hole for redundancy later)
-4. Jellyfin media server
+4. Jellyfin media server (done, with hardware transcoding)
 5. Tailscale remote access
 6. Backups (Proxmox Backup Server) and monitoring
 7. File storage (Samba, Nextcloud)
